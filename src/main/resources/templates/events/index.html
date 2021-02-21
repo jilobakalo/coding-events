@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="el" xmlns:th="http://www.thymeleaf.org/">
+<head>
+    <meta charset="UTF-8"/>
+    <title>coding events</title>
+</head>
+<body>
+<h1>Best Programming Language</h1>
+<h3>
+<ol>
+        <li th:each="event:${events}" th:text="${event}"></li>
+</ol>
+</h3>
+
+</body>
+
+</html>
